@@ -1,0 +1,11 @@
+# IDEs
+.vscode
+.vs
+.idea
+
+# C# ignore directorys
+**/obj/
+**/bin/
+
+# Token Secret
+**/.env

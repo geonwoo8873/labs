@@ -8,10 +8,11 @@
 <body>
     <header></header>
     <main>
-        <div>
+        <!-- action은 `form`의 지정된 속성으로 부터 요청이 전송될 때 URL에서 /<text>값을 가져온다. -->
+        <form id="connect-handler" action="/post" method="post">
             <input type="text" id="addressInput" placeholder="Enter address">
-            <button id="connectButton">Connect</button>
-        </div>
+            <button type="submit" id="connectButton">Connect</button>
+        </form>
     </main>
     <footer></footer>
 </body>

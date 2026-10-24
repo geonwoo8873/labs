@@ -9,3 +9,10 @@
 
 # Token Secret
 **/.env
+
+# LLM
+**/llm-venv/
+**/llm_cache/
+
+# venv
+**/venv/

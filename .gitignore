@@ -10,6 +10,9 @@
 # Token Secret
 **/.env
 
+# Python cache and compiled files
+__pycache__/
+
 # LLM
 **/llm-venv/
 **/llm_cache/

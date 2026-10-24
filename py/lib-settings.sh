@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+if [[ ! -f "requirements.txt" ]]; then
+    touch "requirements.txt"
+fi
+
+
 TORCH_VERSION="2.9.1"
 
 if [[ $(python -c "import torch; print(torch.__version__)") > "$TORCH_VERSION" ]]; then

@@ -99,7 +99,7 @@ New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" `
 
 ## 참고 자료
 
-- [AMD ROCm for Radeon 설치 안내](https://rocm.docs.amd.com/projects/radeon-ryzen/en/latest/docs/advanced/advancedrad/windows/llm/install-huggingface-transformers.html)
+- [AMD ROCm for Radeon 설치 안내](https://rocm.docs.amd.com/projects/radeon-ryzen/en/latest/docs/install/installrad/windows/howto_windows.html)
 - [PyTorch HIP semantics](https://docs.pytorch.org/docs/main/notes/hip.html)
 - [Windows 긴 경로 지원](https://learn.microsoft.com/windows/win32/fileio/maximum-file-path-limitation#enable-long-paths-in-windows-10-version-1607-and-later)
 - [ROCm 호환성 매트릭스](https://rocm.docs.amd.com/en/latest/compatibility/compatibility-matrix.html?fam=radeon&gpu=amd-radeon-rx-9070-xt&os=windows&gfx=gfx1201)

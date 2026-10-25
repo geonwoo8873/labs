@@ -59,6 +59,10 @@ python -m pip install -r requirements.txt
 
 `requirements.lock`은 현재 설치 패키지 목록을 기록한 파일이며, pip 설치 입력 파일로 사용하지 않습니다.
 
+## 모델 실행 장치
+
+기본 모델은 `model.py`의 `MODEL_COLLECT` 첫 번째 항목입니다. 현재 0.5B, 3B VL, 4B 모델은 CPU에서 실행하고, 7B Coder 모델은 CUDA 호환 GPU가 없으면 실행을 중단합니다. CPU 실행은 메모리 사용량이 크거나 응답이 느릴 수 있습니다.
+
 ### 5. 설치 및 GPU 동작 확인
 
 ```powershell
